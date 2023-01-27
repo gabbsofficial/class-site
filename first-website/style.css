@@ -29,5 +29,9 @@ a:hover {
 }
 
 .new{
-    background-color:darkkhaki;
+    background-color:rgb(159, 170, 117);
+}
+
+p:hover {
+    background-color:white;
 }
