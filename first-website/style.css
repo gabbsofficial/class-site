@@ -1,0 +1,33 @@
+body {
+    color:darkgreen;
+    background-color:lightgoldenrodyellow;
+    max-width: 425px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 20px;
+    background-color:rgb(199, 215, 148);
+    border: 2px dashed;
+    padding: 20px;
+    /* height: 200px; */
+    text-align: center;
+}
+
+a {
+    color: rgb(187, 133, 45);
+    text-decoration: none;
+}
+
+a:hover {
+    color:orange;
+    text-decoration: line-through;
+}
+
+.special {
+    font-size: 25px;
+}
+
+.new{
+    background-color:darkkhaki;
+}
