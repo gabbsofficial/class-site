@@ -34,6 +34,31 @@ color: rgb(233, 144, 144);
   border-left: 1px solid;
   height: 1000px;
   position: absolute;
-  left: 11%;
+  left: 200px;
   top: 0;
+  position: fixed;
+}
+
+li{
+    font-size: 15px;
+}
+
+.box{
+    /* background-color: rgb(229, 82, 82); */
+    width: 200px;
+    height: 447px;
+    /* border: 3px solid; */
+    margin-top: 0px; 
+    position: fixed;
+}
+
+.image{
+    /* background-color: rgb(229, 82, 82); */
+    width: 454px;
+    height: 788px;
+    /* border: 3px solid; */
+    margin-top: 10px; 
+    position: relative;
+    z-index: -1;
+    left: 210px;
 }

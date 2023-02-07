@@ -2,6 +2,8 @@ h1, h2 {
 color:rgb(25, 93, 132);
 font-size: 30px;
 text-align: center;
+border: 2px dashed darkcyan;
+background-color: white;
 }
 
 body{
@@ -9,6 +11,15 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 max-width: 500px;
 margin: 0 auto;
 text-align: center;
+background-color: rgb(191, 225, 228);
+}
+
+ul{
+    width: 460px;
+    height: 181px;
+    background-color: white;
+    text-align: center;
+    filter: drop-shadow(5px 5px 0 black);
 }
 
 li {
@@ -21,6 +32,7 @@ font-size: 16px;
 border: 2px dashed;
 text-align: center;
 padding: 10px;
+background-color: white;
 }
 
 a {
@@ -33,5 +45,14 @@ a:hover{
 }
 
 pre {
+    color:darkcyan;
     text-align: center;
+    border: 2px dashed darkcyan;
+    height: 250px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.shading{
+    filter:drop-shadow(5px 5px 0px black);
 }

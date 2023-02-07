@@ -1,0 +1,38 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    background-color:lightpink;
+    margin:0;
+    font-family: 'Unbounded', cursive;
+    font-weight: 600;
+}
+
+.content-box{
+    background-color:crimson;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid rgb(133, 22, 22);
+    margin: 50px;
+}
+
+.border-box{
+    background-color:crimson;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid rgb(133, 22, 22);
+    margin: 50px;
+    box-sizing:border-box;
+}
+
+.circle{
+    background-color:crimson;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    padding: 60px;
+    border-radius: 100% 100% 0 0;
+}
