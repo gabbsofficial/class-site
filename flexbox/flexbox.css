@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+.main-container{
+    background-color:darkred;
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.item{
+    background-color:pink;
+    border: 1px solid;
+    text-align: center;
+    width: 300px;
+}
+
+.special{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items:center;
+}
+
+.pink{
+    background-color: lightcoral;
+    padding: 10px;
+    border: 1px solid;
+}
+
+a{
+    color: darkred;
+    text-decoration:none;
+}
+
+a:hover{
+    color:black;
+}

@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(166, 215, 166);
+    margin: 0;
+    width: 900px;
+    height: 900px;
+}
+
+.center {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 625px;
+}
+
+a{
+    color: rgb(66, 143, 84);
+    text-decoration: none;
+}
+
+a:hover{
+    color:darkgreen;
+}
+
+.lower {
+    top: 604px;
+    left: 754px;
+}
