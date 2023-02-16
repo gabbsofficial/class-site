@@ -1,6 +1,10 @@
+html{
+    cursor: url(favicon.png), auto;
+}
+
 body {
     background-color:beige;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -61,4 +65,5 @@ li{
     position: relative;
     z-index: -1;
     left: 210px;
+    
 }
