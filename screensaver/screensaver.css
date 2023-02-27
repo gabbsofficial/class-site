@@ -1,0 +1,387 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-color:rgb(16, 16, 15);
+}
+
+.window{
+    width:75vw;
+    height:80vh;
+    background-image: linear-gradient(orange, pink, rgb(129, 168, 230), rgb(111, 111, 170));
+    border-radius: 5% 80% 0 0;
+    z-index:0;
+    animation: nighttime 10s infinite 2s alternate ease-out;
+}
+
+.mover{
+background-color: rgba(16, 16, 15, .2);
+width: 15vw;
+height: 1vw;
+position: fixed;
+bottom: 100px;
+left: 0;
+animation: slide 3.5s infinite reverse ease-out;
+z-index:1;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(-16vw);
+     }
+     100%{
+        transform: translateX(110vw);
+     }
+}
+
+@keyframes nighttime{
+    0%{
+        background-image: linear-gradient(orange, pink, rgb(129, 168, 230), rgb(111, 111, 170));
+    }
+    30%{
+        background-image: linear-gradient(pink, rgb(129, 168, 230), rgb(111, 111, 170),  rgb(45, 45, 131));
+    }
+    50%{
+        background-image: linear-gradient( rgb(129, 168, 230), rgb(111, 111, 170), rgb(45, 45, 131), rgb(35, 35, 83));
+    }
+    70%{
+        background-image: linear-gradient( rgb(111, 111, 170), rgb(45, 45, 131), rgb(35, 35, 83), rgb(34, 34, 66));
+    }
+    100%{
+        background-image: linear-gradient(rgb(45, 45, 131), rgb(35, 35, 83), rgb(34, 34, 66), rgb(11, 11, 24));
+    }
+}
+
+.mover-2{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 130px;
+    left: 0;
+    animation: slide 2.5s infinite .25s reverse ease-out;
+    z-index:1;
+}
+
+.mover-3{
+    background-color: rgb(16, 16, 15, .2);
+    width: 15vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 145px;
+    left: 0;
+    animation: slide 3.5s infinite .75s reverse;
+    z-index:1;
+}
+
+.mover-4{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 165px;
+    left: 0;
+    animation: slide 3.25s infinite reverse;
+    z-index:1;
+}
+
+.mover-5{
+    background-color: rgb(16, 16, 15, .2);
+    width: 13vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 175px;
+    left: 0;
+    animation: slide 2.75s infinite 1s reverse;
+    z-index:1;
+}
+
+.mover-6{
+    background-color: rgb(16, 16, 15), .2;
+    width: 14vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 200px;
+    left: 0;
+    animation: slide 3s infinite 1.2s reverse;
+    z-index:1; 
+}
+
+.mover-7{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 220px;
+    left: 0;
+    animation: slide 2.25s infinite 1s reverse ease-out;
+    z-index:1;
+}
+
+.mover-8{
+    background-color: rgb(16, 16, 15, .2);
+    width: 11vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 245px;
+    left: 0;
+    animation: slide 1s infinite .25s reverse;
+    z-index:1;
+}
+
+.mover-9{
+    background-color:rgb(16, 16, 15, .2);
+    width: 13vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 265px;
+    left: 0;
+    animation: slide 2.25s infinite reverse;
+    z-index:1;
+}
+
+.mover-10{
+    background-color: rgb(16, 16, 15, .2);
+    width: 15vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 275px;
+    left: 0;
+    animation: slide 3.5s infinite .5s reverse;
+    z-index:1;
+}
+
+.mover-11{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 300px;
+    left: 0;
+    animation: slide 3s infinite reverse;
+    z-index:1; 
+}
+.mover-12{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 330px;
+    left: 0;
+    animation: slide 2.5s infinite .25s reverse ease-out;
+    z-index:1;
+}
+
+.mover-13{
+    background-color: rgb(16, 16, 15, .2);
+    width: 15vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 345px;
+    left: 0;
+    animation: slide 3.5s infinite .75s reverse;
+    z-index:1;
+}
+
+.mover-14{
+    background-color: rgb(16, 16, 15, .2);
+    width: 11vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 365px;
+    left: 0;
+    animation: slide 2s infinite reverse;
+    z-index:1;
+}
+
+.mover-15{
+    background-color: rgb(16, 16, 15, .2);
+    width: 12vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 375px;
+    left: 0;
+    animation: slide 3.5s infinite .1s reverse;
+    z-index:1;
+}
+
+.mover-16{
+    background-color: rgb(16, 16, 15, .2);
+    width: 15vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 400px;
+    left: 0;
+    animation: slide 3s infinite 1s reverse;
+    z-index:1; 
+}
+
+.mover-17{
+    background-color: rgb(16, 16, 15, .2);
+    width: 12vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 420px;
+    left: 0;
+    animation: slide 2s infinite .5s reverse ease-out;
+    z-index:1;
+}
+
+.mover-18{
+    background-color: rgb(16, 16, 15, .2);
+    width: 14vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 445px;
+    left: 0;
+    animation: slide 3.5s infinite .25s reverse;
+    z-index:1;
+}
+
+.mover-19{
+    background-color: rgb(16, 16, 15, .2);
+    width: 15vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 465px;
+    left: 0;
+    animation: slide 3s infinite 1s reverse;
+    z-index:1;
+}
+.mover-20{
+    background-color: rgb(16, 16, 15, .2);
+    width: 13vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 475px;
+    left: 0;
+    animation: slide 3.2s infinite .5s reverse;
+    z-index:1;
+}
+
+.mover-21{
+    background-color: rgb(16, 16, 15, .2);
+    width: 11vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 500px;
+    left: 0;
+    animation: slide 3s infinite reverse;
+    z-index:1; 
+}
+.mover-22{
+    background-color: rgb(16, 16, 15, .2);
+    width: 12vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 565px;
+    left: 0;
+    animation: slide 3s infinite .25s reverse;
+    z-index:1;
+}
+
+.mover-23{
+    background-color: rgb(16, 16, 15, .2);
+    width: 13vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 600px;
+    left: 0;
+    animation: slide 3.25s infinite reverse;
+    z-index:1;
+}
+
+.mover-24{
+    background-color: rgb(16, 16, 15, .2);
+    width: 15vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 620px;
+    left: 0;
+    animation: slide 3.5s infinite .5s reverse;
+    z-index:1;
+}
+
+.mover-25{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 645px;
+    left: 0;
+    animation: slide 3s infinite reverse;
+    z-index:1; 
+}
+.mover-26{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 665px;
+    left: 0;
+    animation: slide 3.5s infinite .25s reverse ease-out;
+    z-index:1;
+}
+
+.mover-27{
+    background-color: rgb(16, 16, 15, .2);
+    width: 15vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 675px;
+    left: 0;
+    animation: slide 3.5s infinite .75s reverse;
+    z-index:1;
+}
+
+.mover-28{
+    background-color: rgb(16, 16, 15, .2);
+    width: 11vw;
+    height: 1vw;
+    position: fixed;
+    bottom:690px;
+    left: 0;
+    animation: slide 2s infinite reverse;
+    z-index:1;
+}
+
+.mover-29{
+    background-color: rgb(16, 16, 15, .2);
+    width: 12vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 700px;
+    left: 0;
+    animation: slide 3.5s infinite .1s reverse;
+    z-index:1;
+}
+
+.mover-30{
+    background-color: rgb(16, 16, 15, .2);
+    width: 10vw;
+    height: 1vw;
+    position: fixed;
+    bottom: 715px;
+    left: 0;
+    animation: slide 3s infinite reverse;
+    z-index:1; 
+}
+
+p{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+   text-align: center;
+   bottom: 2px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
