@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(240, 180, 67);
+    color: white;
+    transition: 2s;
+    transition: color 2s;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.words{
+width: 70vw;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: 20vh;
+z-index: 99;
+}
+
+.expression{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+@media screen and (max-width: 4000px){
+    body{
+        background-color: #EBECF0;
+        color: #494848;
+        font-size: 70%;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+    }
+    #phrase1{
+        display: none;
+    }
+    #phrase2{
+        display: none;
+    }
+    #phrase3{
+        display: none;
+    }
+    #phrase4{
+        display: none;
+    } 
+    #phrase5{
+        display: inline;
+    }
+    #emoji1{
+        display:none;
+    }
+    #emoji2{
+        display:none;
+    }
+    #emoji3{
+        display:none;
+    }
+    #emoji4{
+        display:none;
+    }
+    #emoji5{
+        display:inline;
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    body{
+        background-color: #BEBEBE;
+        color: #676767;
+        font-size: 90%;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+    }
+    #phrase1{
+        display: none;
+    }
+    #phrase2{
+        display: none;
+    }
+    #phrase3{
+        display: none;
+    }
+    #phrase4{
+        display: inline;
+    } 
+    #phrase5{
+        display: none;
+    }
+    #emoji1{
+        display:none;
+    }
+    #emoji2{
+        display:none;
+    }
+    #emoji3{
+        display:none;
+    }
+    #emoji4{
+        display:inline;
+        font-size:130%;
+    }
+    #emoji5{
+        display:none;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        background-color: #949494;
+        color: #BEBEBE;
+        font-size: 110%;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+    }
+    #phrase1{
+        display: none;
+    }
+    #phrase2{
+        display: none;
+    }
+    #phrase3{
+        display: inline;
+    }
+    #phrase4{
+        display: none;
+    } 
+    #phrase5{
+        display: none;
+    }
+    #emoji1{
+        display:none;
+    }
+    #emoji2{
+        display:none;
+    }
+    #emoji3{
+        display:inline;
+        font-size: 150%;
+    }
+    #emoji4{
+        display:none;
+    }
+    #emoji5{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: #676767;
+        color: #EBECF0;
+        font-size: 130%;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+    }
+    #phrase1{
+        display: none;
+    }
+    #phrase2{
+        display: inline;
+    }
+    #phrase3{
+        display: none;
+    }
+    #phrase4{
+        display: none;
+    } 
+    #phrase5{
+        display: none;
+    }
+    #emoji1{
+        display:none;
+    }
+    #emoji2{
+        display: inline;
+        font-size:170%;
+    }
+    #emoji3{
+        display:none;
+    }
+    #emoji4{
+        display:none;
+    }
+    #emoji5{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: #494848;
+        color: white;
+        font-size: 160%;
+        align-items: center;
+    }
+    main{
+        flex-direction: column;
+    }
+    #phrase1{
+        display: inline;
+    }
+    #phrase2{
+        display: none;
+    }
+    #phrase3{
+        display: none;
+    }
+    #phrase4{
+        display: none;
+    } 
+    #phrase5{
+        display: none;
+    }
+    #emoji1{
+        display:inline;
+        font-size: 200%;
+    }
+    #emoji2{
+        display:none;
+    }
+    #emoji3{
+        display:none;
+    }
+    #emoji4{
+        display:none;
+    }
+    #emoji5{
+        display:none;
+    }
+}
