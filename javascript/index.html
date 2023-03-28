@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  
+<button onclick="toggleClass()">click me...</button>
+
+<div id="menu" class="box">
+  howdy <a href="../index.html"> ʕ♥ᴥ♥ʔ</a>
+</div>
+
+<div id="obj" class="square"></div>
+
+
+<script>
+    function toggleClass() {
+
+      var menu = document.getElementById("menu");
+      var obj = document.getElementById("obj");
+      var docbody = document.body;
+
+      menu.classList.toggle("activated");
+      obj.classList.toggle("spin");
+      docbody.classList.toggle("dark");
+    }
+    </script>
+
+</body>
+
+</html>

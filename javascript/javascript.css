@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(237, 200, 200);
+    transition: background .5s;
+}
+
+.dark{
+    background: rgb(163, 62, 62);
+}
+
+.box{
+    padding: 20px;
+    background-color: rgb(248, 159, 159);
+    font-size: 80px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    border-left: 2px solid black;
+    transition: right .5s;
+}
+
+.activated {
+    right: 0px;
+  }
+
+button{
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    background: white;
+    transition: background .5s;
+  }
+
+button:hover{
+    background: beige;
+  }
+
+button:active{
+    background: rgb(220, 220, 189);
+  }
+
+.square{
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background: rgb(154, 27, 27);
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    transition: all 1.25s;
+}
+
+.spin{
+    background: black;
+    transform: rotate(360deg);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(79, 9, 9);
+}

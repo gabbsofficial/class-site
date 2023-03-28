@@ -47,6 +47,7 @@ z-index:1;
     0%{
         background-image: linear-gradient(orange, pink, rgb(129, 168, 230), rgb(111, 111, 170));
     }
+
     30%{
         background-image: linear-gradient(pink, rgb(129, 168, 230), rgb(111, 111, 170),  rgb(45, 45, 131));
     }
