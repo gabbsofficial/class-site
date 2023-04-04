@@ -16,6 +16,9 @@ body{
     justify-content: center;
 }
 
+.draggable{
+    cursor: grab;
+}
 
 .star {
     background: darkred;
