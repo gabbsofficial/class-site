@@ -1,3 +1,82 @@
 *{
     box-sizing: border-box;
 }
+
+/* html{
+    cursor: url(favicon.png), auto;
+} */
+
+body {
+    background-color:beige;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color:rgb(205, 41, 41);
+    margin-left: 50px;
+}
+
+/* h3 {
+    color: rgb(219, 65, 45);
+    margin-left: 50px;
+} */
+
+a {
+    color:rgb(236, 162, 162);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(199, 89, 75);
+    background-color:rgba(199, 89, 75, 0.398);
+}
+
+p {
+color: rgb(236, 162, 162);
+margin-left: 50px;
+}
+
+.nav {
+ display: block;
+ width: 500px;
+}
+
+.vl {
+  border-left: 1px solid rgb(236, 162, 162);
+  height: 1000px;
+  position: absolute;
+  left: 540px;
+  top: 0;
+  position: fixed;
+}
+
+li{
+    font-size: 15px;
+}
+
+.box{
+    /* background-color: rgb(229, 82, 82); */
+    width: 500px;
+    height: 447px;
+    /* border: 3px solid; */
+    margin-top: 0px; 
+    position: fixed;
+}
+
+.logo{
+    position: relative;
+    width: 490px;
+    margin-left: 25px;
+}
+
+.drag{
+    cursor: grab;
+}
+
+.content{
+    margin-left: 560px;
+    margin-top:0px;
+    width: 1080px;
+    height: 1000px;
+    background: darkred;
+}
