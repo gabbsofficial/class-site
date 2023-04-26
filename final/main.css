@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 /* html{
@@ -14,6 +14,13 @@ body {
 h2 {
     color:rgb(205, 41, 41);
     margin-left: 50px;
+}
+
+.logo{
+    position: relative;
+    width: 490px;
+    margin-left: 25px;
+    margin-top: -20px;
 }
 
 /* h3 {
@@ -63,20 +70,61 @@ li{
     position: fixed;
 }
 
-.logo{
-    position: relative;
-    width: 490px;
-    margin-left: 25px;
-}
-
-.drag{
+.draggable{
     cursor: grab;
 }
 
+.drag1{
+    width: 110px;
+    margin-left: 320px;
+}
+
+.drag2{
+    width: 150px;
+    margin-left: 200px;
+}
+
 .content{
+    display: flex;
     margin-left: 560px;
     margin-top:0px;
     width: 1080px;
-    height: 1000px;
-    background: darkred;
+    height: 2900px;
+    background: beige;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.items{
+    display:flex;
+    background-color: beige;
+    width: 1040px;
+    height: 390px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.left{
+    background-color: beige;
+    width: 520px;
+    height: 380px;
+    margin: 5px;
+}
+
+.right{
+    background-color: beige;
+    width: 520px;
+    height: 380px;
+    margin: 5px;
+    color: rgb(236, 162, 162);
+}
+
+.work{
+    width:510px;
+    height: 380px;
+    box-shadow: 3px 3px 6px rgb(236, 162, 162);
 }
